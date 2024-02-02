@@ -1,0 +1,15 @@
+{
+  "name": "englikh-contracts",
+  "version": "1.0.0",
+  "description": "This npm package contains the Englikh project types",
+  "main": "build/index.js",
+  "scripts": {
+    "prepublish": "rm -r build && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.3.3",
+    "zod": "^3.22.4"
+  }
+}
